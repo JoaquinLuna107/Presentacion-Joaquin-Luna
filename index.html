@@ -2,6 +2,7 @@
 <html>
 <head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <title>Presentacion de Joaquin Luna</title>
 
 <style>
@@ -59,8 +60,13 @@ box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
 
 <h1 class="titulo-principal">Joaquin Luna</h1>
 
+<div class="alert alert-info mt-3">
+ Desarrollador en formación
+
+ 
+</div>
 <div class="contenedor container mt-4">
-<h3>Esta es mi presentacion:</h3>
+<h3>Esta es mi presentacion</h3>   
 
 
 <img src="Joacoimg.jpeg"
@@ -91,10 +97,51 @@ muchas cosas y creci como profesional
 <hr>
 
 <h3>Habilidades</h3>
-<p>C#</p>
-<p>Java</p>
-<p>Html</p>
-<p>Base de datos SQL</p>
+
+<p>
+<button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#java">
+Java
+</button>
+</p>
+
+<div class="collapse" id="java">
+<div class="progress">
+<div class="progress-bar bg-success" style="width: 80%">
+70%
+</div>
+</div>
+</div>
+
+<!-- Parte de Html -->
+<p>
+<button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#Html">
+Html
+</button>
+</p>
+
+<div class="collapse" id="Html">
+<div class="progress">
+<div class="progress-bar bg-success" style="width: 25%">
+20%
+</div>
+</div>
+</div>
+
+<!--Parte de C#-->
+
+<p>
+<button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#csharp">
+C#
+</button>
+</p>
+
+<div class="collapse" id="csharp">
+<div class="progress">
+<div class="progress-bar bg-success" style="width: 50%">
+50%
+</div>
+</div>
+</div>
 
 </div>
 
